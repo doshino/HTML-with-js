@@ -1,0 +1,40 @@
+.texto03 {
+    color: rgb(140, 240, 223);
+    font-size: x-large;
+    font-style: italic;
+    text-align: right;
+  }
+  
+  b:hover {
+    background-color: rgb(201, 119, 119);
+  }
+
+  .index2{
+    background-color: aquamarine;
+  }
+
+
+  .teste{
+    color: rgb(255, 0, 200);
+    font-style: italic;
+    font-size: 500%;
+    text-align: center;
+    
+  }
+
+  .image{
+    position: relative;
+    left: 826px;
+  }
+
+  .button{
+    position: relative;
+    left: 830px;
+  }
+
+  .animado {
+    color: rgb(193, 247, 1);
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+  }

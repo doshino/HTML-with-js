@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color:rgb(219, 238, 255);
+                font-family:fantasy;
+            }
+            label{
+                font-style: italic;
+            }
+        </style>
+        <title>IFSC Matrículas</title>
+    </head>
+<body>
+    <form>
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" required name="nome" id="nome" minlength="3" maxlength="30">
+        </p>
+        <p>
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="text" required name="sobrenome" id="sobrenome" minglength="3" maxlength="50">
+        </p>
+        <p>
+            <label for="data">Data de Nascimento: </label>
+            <input type="date" required name="data de nascimento" id="data de nascimento">
+        </p>
+        <p>
+            <label for="e-mail">E-mail: </label>
+            <input type="email" required name="e-mail" id="e-mail">
+        </p>
+        <p>
+            <label for="telefone">Telefone: </label>
+            <input type="text" required name="telefone" id="telefone" minlength="12" maxlength="12">
+        </p>
+        <p>
+            <label for="serie">Série: </label>
+            <select name="serie">
+                <option>1º Ano</option>
+                <option>2º Ano</option>
+                <option>3º Ano</option>
+                <option>4º Ano</option>
+            </select>
+        </p>
+        <p>
+            <label for="turno"> Turno: </label>
+            <input type="radio" value="matutino" required name="turno"> Matutino
+            <input type="radio" value="verspertino" required name="turno"> Vespertino
+            <input type="radio" value="noturno" required name="turno"> Noturno <br>
+        </p>
+        <p>
+            <label>Atividades Extracurriculares:</label><br>
+            <input type="checkbox" name="atividades extracurriculares" value="teatro"> Teatro <br>
+            <input type="checkbox" name="atividades extracurriculares" value="musica"> Música <br>
+            <input type="checkbox" name="atividades extracurriculares" value="ballet"> Ballet <br>
+            <input type="checkbox" name="atividades extracurriculares" value="pintura"> Pintura <br>
+            <input type="checkbox" name="atividades extracurriculares" value="judô"> Judô <br>
+            <button type="submit">Enviar </button>
+            <button type="reset">Limpar </button>
+        </p>
+    </form>
+</body>
+</html>
