@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TA INDO</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="script.js"></script>
 <style>
     #tudo{
         background-color: rgb(17, 9, 9);
     }
 
-    div{
+    #teste{
         width: 200px;
         height: 50px;
         background-color: rgb(38, 38, 39);
@@ -28,7 +28,22 @@
 </style>
 
 </head>
-    <div class="animado ">Testando</div>
+    <div id="teste" class="animado ">Testando</div>
+<input type="button" onclick="mudarCor()" value="Botão">
+
+<input type="button" onclick="mudarCor2()" value="Botão">
+
+<script>
+    function mudarCor() {
+        teste = document.getElementById("teste");
+        teste.style.backgroundColor = "red";
+    }
+    function mudarCor2() {
+        teste = document.getElementById("teste");
+        teste.style.backgroundColor = "rgb(201, 119, 119)" ;
+    }
+</script>
+
 <body id="tudo">
     <p class="teste">Amém</p>
     <img class="image" title="CABEÇA DE ELEFANTE" src="C:\Users\craft\OneDrive\Imagens\Duarte.png" align="middle" position="center">
